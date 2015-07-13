@@ -48,97 +48,84 @@ $EndDescr
 $Comp
 L LTC2991 U1
 U 1 1 55A19EC5
-P 5500 2950
-F 0 "U1" H 5500 2850 50  0000 C CNN
-F 1 "LTC2991" H 5500 3050 50  0000 C CNN
-F 2 "Local:MSOP-16" H 5500 2950 50  0001 C CNN
-F 3 "" H 5500 2950 50  0001 C CNN
-	1    5500 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIP-SPDT-3 SW1
-U 1 1 55A1BC78
-P 7900 3200
-F 0 "SW1" H 7900 3800 60  0000 C CNN
-F 1 "DIP-SPDT-3" H 7900 3100 60  0000 C CNN
-F 2 "Local:DIP_Switch_2x06" H 7950 3200 60  0001 C CNN
-F 3 "" H 7950 3200 60  0000 C CNN
-	1    7900 3200
+P 5900 3300
+F 0 "U1" H 5900 3200 50  0000 C CNN
+F 1 "LTC2991" H 5900 3400 50  0000 C CNN
+F 2 "Local:MSOP-16" H 5900 3300 50  0001 C CNN
+F 3 "" H 5900 3300 50  0001 C CNN
+	1    5900 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R5
 U 1 1 55A1C08B
-P 8450 2450
-F 0 "R5" V 8530 2450 50  0000 C CNN
-F 1 "5k6" V 8450 2450 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 8380 2450 30  0001 C CNN
-F 3 "" H 8450 2450 30  0000 C CNN
-	1    8450 2450
+P 7600 2800
+F 0 "R5" V 7680 2800 50  0000 C CNN
+F 1 "5k6" V 7600 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7530 2800 30  0001 C CNN
+F 3 "" H 7600 2800 30  0000 C CNN
+	1    7600 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R6
 U 1 1 55A1C0C2
-P 8700 2650
-F 0 "R6" V 8780 2650 50  0000 C CNN
-F 1 "5k6" V 8700 2650 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 8630 2650 30  0001 C CNN
-F 3 "" H 8700 2650 30  0000 C CNN
-	1    8700 2650
+P 7850 2900
+F 0 "R6" V 7930 2900 50  0000 C CNN
+F 1 "5k6" V 7850 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7780 2900 30  0001 C CNN
+F 3 "" H 7850 2900 30  0000 C CNN
+	1    7850 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R7
 U 1 1 55A1C3A3
-P 8950 2850
-F 0 "R7" V 9030 2850 50  0000 C CNN
-F 1 "5k6" V 8950 2850 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 8880 2850 30  0001 C CNN
-F 3 "" H 8950 2850 30  0000 C CNN
-	1    8950 2850
+P 8100 3000
+F 0 "R7" V 8180 3000 50  0000 C CNN
+F 1 "5k6" V 8100 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8030 3000 30  0001 C CNN
+F 3 "" H 8100 3000 30  0000 C CNN
+	1    8100 3000
 	1    0    0    -1  
 $EndComp
-Text Label 8950 2200 0    60   ~ 0
+Text Label 8100 2550 0    60   ~ 0
 VCC
-Text Label 6250 2600 0    60   ~ 0
+Text Label 6650 2950 0    60   ~ 0
 VCC
-Text Label 6250 3000 0    60   ~ 0
+Text Label 6650 3350 0    60   ~ 0
 PWM
-Text Label 6250 3100 0    60   ~ 0
+Text Label 6650 3450 0    60   ~ 0
 SCL
-Text Label 6250 3200 0    60   ~ 0
+Text Label 6650 3550 0    60   ~ 0
 SDA
-Text Label 4750 2600 2    60   ~ 0
+Text Label 5150 2950 2    60   ~ 0
 V1
-Text Label 4750 2700 2    60   ~ 0
+Text Label 5150 3050 2    60   ~ 0
 V2
-Text Label 4750 2800 2    60   ~ 0
+Text Label 5150 3150 2    60   ~ 0
 V3
-Text Label 4750 2900 2    60   ~ 0
+Text Label 5150 3250 2    60   ~ 0
 V4
-Text Label 1900 2600 2    60   ~ 0
+Text Label 2300 2950 2    60   ~ 0
 VCC
-Text Label 1900 2700 2    60   ~ 0
+Text Label 2300 3050 2    60   ~ 0
 SCL
-Text Label 1900 2800 2    60   ~ 0
+Text Label 2300 3150 2    60   ~ 0
 SDA
-Text Label 3100 2700 0    60   ~ 0
+Text Label 3500 3050 0    60   ~ 0
 PWM
-Text Label 1900 2900 2    60   ~ 0
+Text Label 2300 3250 2    60   ~ 0
 V1
-Text Label 1900 3000 2    60   ~ 0
+Text Label 2300 3350 2    60   ~ 0
 V2
-Text Label 1900 3100 2    60   ~ 0
+Text Label 2300 3450 2    60   ~ 0
 V3
-Text Label 1900 3200 2    60   ~ 0
+Text Label 2300 3550 2    60   ~ 0
 V4
-Text Label 3100 2600 0    60   ~ 0
+Text Label 3500 2950 0    60   ~ 0
 GND
-Text Label 6250 3300 0    60   ~ 0
-GND
-Text Label 8350 3200 0    60   ~ 0
+Text Label 6650 3650 0    60   ~ 0
 GND
 $Comp
 L R R1
@@ -146,110 +133,58 @@ U 1 1 55A21CED
 P 5000 5850
 F 0 "R1" V 5080 5850 50  0000 C CNN
 F 1 "0.1" V 5000 5850 50  0000 C CNN
-F 2 "Resistors_SMD:R_2010" V 4930 5850 30  0001 C CNN
+F 2 "Resistors_SMD:R_1206" V 4930 5850 30  0001 C CNN
 F 3 "" H 5000 5850 30  0000 C CNN
 F 4 "1W, 1%" V 4900 5850 50  0000 C CNN "Note"
 	1    5000 5850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6250 2700 7550 2700
+	7600 2950 7600 3500
 Wire Wire Line
-	7550 2800 7450 2800
+	7600 2550 7600 2650
 Wire Wire Line
-	7450 2800 7450 2700
-Connection ~ 7450 2700
-Wire Wire Line
-	6250 2800 7350 2800
-Wire Wire Line
-	7350 2800 7350 2900
-Wire Wire Line
-	7350 2900 7550 2900
-Wire Wire Line
-	7550 3000 7450 3000
-Wire Wire Line
-	7450 3000 7450 2900
-Connection ~ 7450 2900
-Wire Wire Line
-	6250 2900 7250 2900
-Wire Wire Line
-	7250 2900 7250 3100
-Wire Wire Line
-	7250 3100 7550 3100
-Wire Wire Line
-	7550 3200 7450 3200
-Wire Wire Line
-	7450 3200 7450 3100
-Connection ~ 7450 3100
-Wire Wire Line
-	8250 2700 8450 2700
-Wire Wire Line
-	8450 2700 8450 2600
-Wire Wire Line
-	8250 2900 8700 2900
-Wire Wire Line
-	8700 2900 8700 2800
-Wire Wire Line
-	8950 3000 8950 3100
-Wire Wire Line
-	8950 3100 8250 3100
-Wire Wire Line
-	8350 2800 8350 3200
-Wire Wire Line
-	8350 3200 8250 3200
-Wire Wire Line
-	8250 3000 8350 3000
-Wire Wire Line
-	8250 2800 8350 2800
-Connection ~ 8350 3000
-Wire Wire Line
-	8450 2200 8450 2300
-Wire Wire Line
-	8700 2500 8700 2200
-Wire Wire Line
-	8450 2200 8950 2200
-Wire Wire Line
-	8950 2200 8950 2700
-Connection ~ 8700 2200
-Text Label 4750 3000 2    60   ~ 0
+	7600 2550 8100 2550
+Connection ~ 7850 2550
+Text Label 5150 3350 2    60   ~ 0
 V5
-Text Label 4750 3100 2    60   ~ 0
+Text Label 5150 3450 2    60   ~ 0
 V6
-Text Label 4750 3200 2    60   ~ 0
+Text Label 5150 3550 2    60   ~ 0
 V7
-Text Label 4750 3300 2    60   ~ 0
+Text Label 5150 3650 2    60   ~ 0
 V8
 $Comp
 L CONN_01X07 P1
 U 1 1 55A22E52
-P 2100 2900
-F 0 "P1" H 2100 3300 50  0000 C CNN
-F 1 "CONN_01X07" V 2200 2900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 2100 2900 60  0001 C CNN
-F 3 "" H 2100 2900 60  0000 C CNN
-	1    2100 2900
+P 2500 3250
+F 0 "P1" H 2500 3650 50  0000 C CNN
+F 1 "CONN_01X07" V 2600 3250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 2500 3250 60  0001 C CNN
+F 3 "" H 2500 3250 60  0000 C CNN
+	1    2500 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X07 P2
 U 1 1 55A22EEE
-P 2900 2900
-F 0 "P2" H 2900 3300 50  0000 C CNN
-F 1 "CONN_01X07" V 3000 2900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 2900 2900 60  0001 C CNN
-F 3 "" H 2900 2900 60  0000 C CNN
-	1    2900 2900
+P 3300 3250
+F 0 "P2" H 3300 3650 50  0000 C CNN
+F 1 "CONN_01X07" V 3400 3250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 3300 3250 60  0001 C CNN
+F 3 "" H 3300 3250 60  0000 C CNN
+	1    3300 3250
 	-1   0    0    -1  
 $EndComp
-Text Label 3100 3200 0    60   ~ 0
+Text Label 3500 3550 0    60   ~ 0
 V5
-Text Label 3100 3100 0    60   ~ 0
+Text Label 3500 3450 0    60   ~ 0
 V6
-Text Label 3100 3000 0    60   ~ 0
+Text Label 3500 3350 0    60   ~ 0
 V7
-Text Label 3100 2900 0    60   ~ 0
+Text Label 3500 3250 0    60   ~ 0
 V8
-Text Label 3100 2800 0    60   ~ 0
+Text Label 3500 3150 0    60   ~ 0
 GND
 Text Label 4850 5850 2    60   ~ 0
 V1
@@ -286,7 +221,7 @@ U 1 1 55A33AA9
 P 5000 6250
 F 0 "R2" V 5080 6250 50  0000 C CNN
 F 1 "0.1" V 5000 6250 50  0000 C CNN
-F 2 "Resistors_SMD:R_2010" V 4930 6250 30  0001 C CNN
+F 2 "Resistors_SMD:R_1206" V 4930 6250 30  0001 C CNN
 F 3 "" H 5000 6250 30  0000 C CNN
 F 4 "1W, 1%" V 4900 6250 50  0000 C CNN "Note"
 	1    5000 6250
@@ -302,7 +237,7 @@ U 1 1 55A33B91
 P 5000 6650
 F 0 "R3" V 5080 6650 50  0000 C CNN
 F 1 "0.1" V 5000 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_2010" V 4930 6650 30  0001 C CNN
+F 2 "Resistors_SMD:R_1206" V 4930 6650 30  0001 C CNN
 F 3 "" H 5000 6650 30  0000 C CNN
 F 4 "1W, 1%" V 4900 6650 50  0000 C CNN "Note"
 	1    5000 6650
@@ -318,7 +253,7 @@ U 1 1 55A33B9A
 P 5000 7050
 F 0 "R4" V 5080 7050 50  0000 C CNN
 F 1 "0.1" V 5000 7050 50  0000 C CNN
-F 2 "Resistors_SMD:R_2010" V 4930 7050 30  0001 C CNN
+F 2 "Resistors_SMD:R_1206" V 4930 7050 30  0001 C CNN
 F 3 "" H 5000 7050 30  0000 C CNN
 F 4 "1W, 1%" V 4900 7050 50  0000 C CNN "Note"
 	1    5000 7050
@@ -423,4 +358,51 @@ Wire Notes Line
 	3750 5600 3750 7300
 Text Notes 1350 5550 0    80   ~ 0
 Optional Temperature\nSensing Transistors
+$Comp
+L CONN_02X03 P3
+U 1 1 55A3F3AE
+P 7700 3750
+F 0 "P3" H 7700 3950 50  0000 C CNN
+F 1 "CONN_02X03" H 7700 3550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 7700 2550 60  0001 C CNN
+F 3 "" H 7700 2550 60  0000 C CNN
+	1    7700 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 3050 6650 3050
+Wire Wire Line
+	7850 3050 7850 3350
+Wire Wire Line
+	7850 3150 6650 3150
+Wire Wire Line
+	8100 3150 8100 3400
+Wire Wire Line
+	8100 3250 6650 3250
+Wire Wire Line
+	7850 2750 7850 2550
+Wire Wire Line
+	8100 2550 8100 2850
+Connection ~ 7600 3050
+Wire Wire Line
+	7850 3350 7700 3350
+Wire Wire Line
+	7700 3350 7700 3500
+Connection ~ 7850 3150
+Wire Wire Line
+	8100 3400 7800 3400
+Wire Wire Line
+	7800 3400 7800 3500
+Connection ~ 8100 3250
+Wire Wire Line
+	7600 4000 7600 4100
+Wire Wire Line
+	7600 4100 7800 4100
+Wire Wire Line
+	7800 4100 7800 4000
+Wire Wire Line
+	7700 4000 7700 4100
+Connection ~ 7700 4100
+Text Label 7800 4100 0    60   ~ 0
+GND
 $EndSCHEMATC
