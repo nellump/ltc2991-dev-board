@@ -5,8 +5,8 @@ surface-mount (MSOP-16) [LTC2991][1] into a common breadboard.
 
 [1]: http://www.linear.com/product/LTC2991
 
-*NB: This project is a work in progress!  Circuit design and PCB layout
-of Rev. A are complete; assembly is pending.*
+*NB: This project is a work in progress!  Mistakes have been
+discovered in the Rev. A schematic and PCB.  Corrections are pending.*
 
 
 ## Features
