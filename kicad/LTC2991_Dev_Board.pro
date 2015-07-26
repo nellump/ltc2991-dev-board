@@ -1,4 +1,4 @@
-update=Sat 11 Jul 2015 05:43:05 PM PDT
+update=Sat 25 Jul 2015 05:22:47 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=libs/symbols/LTC299x
 LibName31=libs/symbols/DIP_switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

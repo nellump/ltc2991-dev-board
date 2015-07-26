@@ -37,8 +37,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "LTC2991 Development Board"
-Date "2015-07-15"
-Rev "A"
+Date "2015-07-25"
+Rev "B"
 Comp "Paul Mullen <pm@nellump.net>"
 Comment1 "<http://www.nellump.net/ltc2991-dev-board>"
 Comment2 ""
@@ -113,8 +113,6 @@ Text Label 2300 3050 2    60   ~ 0
 V2
 Text Label 2300 3150 2    60   ~ 0
 V3
-Text Label 3500 3050 0    60   ~ 0
-GND
 Text Label 2300 3250 2    60   ~ 0
 V4
 Text Label 2300 3350 2    60   ~ 0
@@ -137,15 +135,8 @@ F 2 "Resistors_SMD:R_1206" V 2230 5450 30  0001 C CNN
 F 3 "" H 2300 5450 30  0000 C CNN
 F 4 "1W, 1%" V 2200 5450 50  0000 C CNN "Note"
 	1    2300 5450
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	7600 2950 7600 3500
-Wire Wire Line
-	7600 2550 7600 2650
-Wire Wire Line
-	7600 2550 8100 2550
-Connection ~ 7850 2550
 Text Label 5150 3350 2    60   ~ 0
 V5
 Text Label 5150 3450 2    60   ~ 0
@@ -154,8 +145,6 @@ Text Label 5150 3550 2    60   ~ 0
 V7
 Text Label 5150 3650 2    60   ~ 0
 V8
-Text Label 3500 3150 0    60   ~ 0
-GND
 Text Label 2150 5450 2    60   ~ 0
 V1
 Text Label 2450 5450 0    60   ~ 0
@@ -173,6 +162,84 @@ F 3 "" H 7700 2550 60  0000 C CNN
 	1    7700 3750
 	0    -1   -1   0   
 $EndComp
+Text Label 7800 4100 0    60   ~ 0
+GND
+$Comp
+L CONN_01X08 P1
+U 1 1 55A5EA73
+P 2500 3300
+F 0 "P1" H 2500 3750 50  0000 C CNN
+F 1 "CONN_01X08" V 2600 3300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 2500 3300 60  0001 C CNN
+F 3 "" H 2500 3300 60  0000 C CNN
+	1    2500 3300
+	1    0    0    -1  
+$EndComp
+Text Label 2300 3650 2    60   ~ 0
+V8
+$Comp
+L CONN_01X08 P2
+U 1 1 55A5EB80
+P 3300 3300
+F 0 "P2" H 3300 3750 50  0000 C CNN
+F 1 "CONN_01X08" V 3400 3300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 3300 3300 60  0001 C CNN
+F 3 "" H 3300 3300 60  0000 C CNN
+	1    3300 3300
+	-1   0    0    -1  
+$EndComp
+Text Label 3500 3350 0    60   ~ 0
+PWM
+Text Label 3500 3450 0    60   ~ 0
+SCL
+Text Label 3500 3550 0    60   ~ 0
+SDA
+Text Label 3500 3650 0    60   ~ 0
+GND
+$Comp
+L Q_NPN_BCE Q1
+U 1 1 55A33D2F
+P 3250 5450
+F 0 "Q1" H 3550 5500 50  0000 R CNN
+F 1 "MMBT3904" H 3850 5400 50  0000 R CNN
+F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 3450 5550 29  0001 C CNN
+F 3 "" H 3250 5450 60  0000 C CNN
+	1    3250 5450
+	1    0    0    -1  
+$EndComp
+Text Label 3350 5800 0    60   ~ 0
+V4
+Text Label 2950 5450 2    60   ~ 0
+V3
+$Comp
+L CONN_01X02 P4
+U 1 1 55B2EA15
+P 2300 5950
+F 0 "P4" H 2300 6100 50  0000 C CNN
+F 1 "CONN_SENSE" V 2400 5950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2300 5950 60  0001 C CNN
+F 3 "" H 2300 5950 60  0000 C CNN
+	1    2300 5950
+	0    -1   1    0   
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 55B2ECFC
+P 7100 3450
+F 0 "C2" H 7110 3520 50  0000 L CNN
+F 1 "0.1μ" H 7110 3370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7100 3450 60  0001 C CNN
+F 3 "" H 7100 3450 60  0000 C CNN
+	1    7100 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2950 7600 3500
+Wire Wire Line
+	7600 2550 7600 2650
+Wire Wire Line
+	7600 2550 8100 2550
+Connection ~ 7850 2550
 Wire Wire Line
 	7600 3050 6650 3050
 Wire Wire Line
@@ -207,73 +274,64 @@ Wire Wire Line
 Wire Wire Line
 	7700 4000 7700 4100
 Connection ~ 7700 4100
-Text Label 7800 4100 0    60   ~ 0
-GND
-$Comp
-L CONN_01X08 P1
-U 1 1 55A5EA73
-P 2500 3300
-F 0 "P1" H 2500 3750 50  0000 C CNN
-F 1 "CONN_01X08" V 2600 3300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 2500 3300 60  0001 C CNN
-F 3 "" H 2500 3300 60  0000 C CNN
-	1    2500 3300
-	1    0    0    -1  
-$EndComp
-Text Label 2300 3650 2    60   ~ 0
-V8
-$Comp
-L CONN_01X08 P2
-U 1 1 55A5EB80
-P 3300 3300
-F 0 "P2" H 3300 3750 50  0000 C CNN
-F 1 "CONN_01X08" V 3400 3300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 3300 3300 60  0001 C CNN
-F 3 "" H 3300 3300 60  0000 C CNN
-	1    3300 3300
-	-1   0    0    -1  
-$EndComp
-Text Label 3500 3250 0    60   ~ 0
-GND
-Text Label 3500 3350 0    60   ~ 0
-PWM
-Text Label 3500 3450 0    60   ~ 0
-SCL
-Text Label 3500 3550 0    60   ~ 0
-SDA
-Text Label 3500 3650 0    60   ~ 0
-GND
-Wire Wire Line
-	3350 5650 3350 5750
 Wire Wire Line
 	2950 5450 3050 5450
 Wire Wire Line
-	2950 5150 2950 5450
+	2950 5150 2950 5550
 Wire Wire Line
 	3350 5150 2950 5150
 Wire Wire Line
 	3350 5250 3350 5150
-$Comp
-L Q_NPN_BCE Q1
-U 1 1 55A33D2F
-P 3250 5450
-F 0 "Q1" H 3550 5500 50  0000 R CNN
-F 1 "MMBT3904" H 3850 5400 50  0000 R CNN
-F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 3450 5550 29  0001 C CNN
-F 3 "" H 3250 5450 60  0000 C CNN
-	1    3250 5450
-	1    0    0    -1  
-$EndComp
-Text Label 3350 5750 0    60   ~ 0
-V4
-Text Label 2950 5450 2    60   ~ 0
-V3
 Wire Notes Line
 	1900 4700 4000 4700
 Wire Notes Line
-	4000 4700 4000 5950
+	4000 4700 4000 6200
 Wire Notes Line
-	4000 5950 1900 5950
+	4000 6200 1900 6200
 Wire Notes Line
-	1900 5950 1900 4700
+	1900 6200 1900 4700
+Wire Wire Line
+	2250 5750 2250 5650
+Wire Wire Line
+	2250 5650 2150 5650
+Wire Wire Line
+	2150 5650 2150 5450
+Wire Wire Line
+	2450 5450 2450 5650
+Wire Wire Line
+	2450 5650 2350 5650
+Wire Wire Line
+	2350 5650 2350 5750
+Wire Wire Line
+	7100 3550 7100 3650
+Wire Wire Line
+	7100 3650 6650 3650
+Wire Wire Line
+	7100 3350 7100 2950
+Wire Wire Line
+	7100 2950 6650 2950
+$Comp
+L C_Small C1
+U 1 1 55B2FA16
+P 2950 5650
+F 0 "C1" H 2960 5720 50  0000 L CNN
+F 1 "470p" H 2960 5570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2950 5650 60  0001 C CNN
+F 3 "" H 2950 5650 60  0000 C CNN
+	1    2950 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 5450
+Wire Wire Line
+	3350 5650 3350 5850
+Wire Wire Line
+	3350 5850 2950 5850
+Wire Wire Line
+	2950 5850 2950 5750
+Text Label 3500 3250 0    60   ~ 0
+NC
+Text Label 3500 3150 0    60   ~ 0
+NC
+Text Label 3500 3050 0    60   ~ 0
+NC
 $EndSCHEMATC
