@@ -21,7 +21,7 @@ Rev. B design are complete; assembly is pending.*
   (SOT-23 SMD), connected across the V3 and V4 terminals of the
   LTC2991, and a filter capactitor for said transistor.
 
-![Alt text](./PCB_layout.png "PCB Layout")
+![Schematic](./schematic.png "Schematic")
 
 
 ## Caveats
@@ -32,6 +32,8 @@ features a 0.100" pin pitch, and an approx. 0.300" gap down the middle
 of the board.
 
 [2]: http://rsrelectronics.com/breadboards.html
+
+![PCB Layout](./PCB_layout.png "PCB Layout")
 
 
 ## Changelog

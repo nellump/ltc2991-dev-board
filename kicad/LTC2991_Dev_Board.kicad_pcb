@@ -3,7 +3,7 @@
   (general
     (links 38)
     (no_connects 2)
-    (area 131.394999 87.960999 150.545001 117.271001)
+    (area 129.106886 87.9221 152.833115 117.271001)
     (thickness 1.6)
     (drawings 9)
     (tracks 159)
@@ -18,7 +18,7 @@
     (date 2015-07-25)
     (rev B)
     (company "Paul Mullen <pm@nellump.net>")
-    (comment 1 <http://www.nellump.net/ltc2991-dev-board>)
+    (comment 1 <http://www.nellump.net/ltcdev>)
   )
 
   (layers
