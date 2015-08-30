@@ -6,8 +6,10 @@ surface-mount (MSOP-16) `LTC2991`_ into a common breadboard.
 
 .. _LTC2991: http://www.linear.com/product/LTC2991
 
-*NB: This project is a work in progress!  Schematic and PCB layout for
-Rev. B design are complete; assembly is pending.*
+.. figure:: ./assembled_PCB.jpeg
+   :alt: Photo of LTC2991 breakout board.
+
+   A fully-assembled LTC2991 breakout board, ready for service.
 
 
 Features
@@ -38,11 +40,6 @@ features a 0.100" pin pitch, and an approx. 0.300" gap down the middle
 of the board.
 
 .. _R.S.R.-branded breadboard: http://rsrelectronics.com/breadboards.html
-
-.. figure:: ./PCB_layout.png
-   :alt: Carrier board PCB layout.
-
-   Carrier board PCB layout.
 
 
 Changelog
