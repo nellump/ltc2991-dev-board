@@ -1,3 +1,4 @@
+# KiCad turds
 kicad/**/*[.-]bak
 kicad/**/*[.-]bck
-/*.html
+kicad/**/_autosave*
