@@ -27,9 +27,8 @@ Features
 
 .. figure:: ./doc/images/schematic.jpeg
    :alt: Carrier board schematic.
-   :target: ./build/schematic.pdf
 
-   Carrier board schematic.  Click for PDF.
+   Carrier board schematic.  A PDF copy is in the build/ subdirectory.
 
 
 Caveats
