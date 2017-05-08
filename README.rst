@@ -6,7 +6,7 @@ surface-mount (MSOP-16) `LTC2991`_ into a common breadboard.
 
 .. _LTC2991: http://www.linear.com/product/LTC2991
 
-.. figure:: ./assembled_PCB.jpeg
+.. figure:: ./doc/images/assembled_PCB.jpeg
    :alt: Photo of LTC2991 breakout board.
 
    A fully-assembled LTC2991 breakout board, ready for service.
@@ -25,10 +25,11 @@ Features
   (SOT-23 SMD), connected across the V3 and V4 terminals of the
   LTC2991, and a filter capactitor for said transistor.
 
-.. figure:: ./schematic.png
+.. figure:: ./doc/images/schematic.jpeg
    :alt: Carrier board schematic.
+   :target: ./build/schematic.pdf
 
-   Carrier board schematic.
+   Carrier board schematic.  Click for PDF.
 
 
 Caveats
